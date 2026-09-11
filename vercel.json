@@ -1,0 +1,56 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "outputDirectory": ".next",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "ANTHROPIC_API_KEY",
+      "description": "Your Anthropic API key for Claude",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "UPSTASH_REDIS_REST_URL",
+      "description": "Upstash Redis REST URL",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "UPSTASH_REDIS_REST_TOKEN",
+      "description": "Upstash Redis REST Token",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "STRIPE_PUBLIC_KEY",
+      "description": "Stripe public key",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "STRIPE_SECRET_KEY",
+      "description": "Stripe secret key",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "STRIPE_WEBHOOK_SECRET",
+      "description": "Stripe webhook secret",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "STRIPE_PRICE_MONTHLY",
+      "description": "Stripe price ID for monthly subscription",
+      "value": "",
+      "type": "secret"
+    },
+    {
+      "key": "STRIPE_PRICE_ANNUAL",
+      "description": "Stripe price ID for annual subscription",
+      "value": "",
+      "type": "secret"
+    }
+  ]
+}
